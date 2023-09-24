@@ -1,0 +1,42 @@
+.list1{
+    display: flex;
+
+    .list-container{
+        flex: 6.25;
+
+        .heading{
+            display: flex;
+            justify-content: space-between;
+            
+            margin: 12px 3.5%;
+            padding-top: 8px;
+
+            .ttl{
+                padding: 4px 6px;
+                font-size: 22px;
+                color: #888;
+                margin-left: 1%;
+            }
+
+            .ttlbtn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 5px;
+                border: 1px solid green;
+                cursor: pointer;
+                padding: 3px 8px;
+                margin: 1px 10px;
+                font-size: 18px;
+                color: green;
+                background-color: rgba(0, 128, 0, 0.11);
+            }
+        }
+
+        .container{
+            margin: 12px 3.5%;
+            padding-top: 8px;
+
+       }
+    }
+}

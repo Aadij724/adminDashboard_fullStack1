@@ -1,0 +1,134 @@
+.new{
+    position: relative;
+    display: flex;
+
+    .new-container{
+        flex: 6.25;
+
+        .container{
+            margin: 20px;
+            padding: 1.5% 2%;
+            .top{
+                padding: 4px 10px ;
+                font-size: 25px;
+                color: #888;
+
+                -webkit-box-shadow: 2px 3px 3px 3px rgba(205,205,205,0.81); 
+                box-shadow: 2px 3px 3px 3px rgba(205,205,205,0.81);
+
+                border-radius: 5px;
+
+            }
+            .bottom{
+                display: flex;
+                height: 57vh;
+                margin-top: 15px;
+
+
+                -webkit-box-shadow: 2px 3px 3px 3px rgba(205,205,205,0.81); 
+                box-shadow: 2px 3px 3px 3px rgba(205,205,205,0.81);
+
+
+                .left{
+                    flex: 3.5;
+                    display: flex;
+                    justify-content: center;
+                    margin: 20px 20px 20px 30px;
+
+                    border-radius: 5px;
+                    .imgAlt{
+                        min-height: 50px;
+                        min-width: 50px;
+                        height: 23%;
+                        width: 23%;
+                        padding: 20px;
+                        border-radius: 50%;
+                        background-color: #88888890;
+                        align-self: start;
+                        margin-top: 20px;
+                        color: rgba(0, 0, 0, 0.619);
+                    }
+                }
+                .right{
+                    flex: 6;
+                    margin: 20px 10px;
+
+                    
+                    border-radius: 5px;
+
+                    height: 120%;
+
+                    form{
+                        height: 40vh;
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 5%;
+                        padding-left: 3%;
+                        
+                        margin: 1px 2% 10px;
+
+                        .formInput{
+                            padding: 2px;
+                            margin-left: 5px;
+                            color: #888;
+                            align-items: center;
+                            width:45%;
+                            border-bottom: 0.2px solid hwb(0 53% 47% / 0.564);
+
+                            &:nth-child(1){
+                                border-bottom: 0;
+                            }
+
+                            .itemh{
+                                color: #888;
+                                font-size: 17px;
+                                padding: 4px;
+                                margin-top: 6px;
+                            }
+                            .itemv{
+                                span{
+                                    color: #888;
+                                    font-size: 17px;
+                                }
+
+                                #uploadIcon{
+                                    cursor: pointer;
+                                    color: black;
+                                    margin-left: 4px;
+                                }
+                            }
+                            .imgUpl{
+                                display: flex;
+                                align-items: center;
+                                
+                                padding: 4px;
+                                margin-top: 6px;
+                                font-size: 17px;
+                            }
+
+                            input{
+                                width: 53%;
+                                border: 0px;
+                            }
+                        }
+                        button{
+                            padding: 13px;
+                            height: 45px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 10px;
+                            width: 28%;
+                            font-size: 18px;
+                            background-color: teal;
+                            color: white;
+                            border: 0;
+                            cursor: pointer;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
